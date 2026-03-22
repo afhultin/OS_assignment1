@@ -22,23 +22,23 @@ int main() {
 	Student students[5];
 
 	students[0].id = 1;
-	strcpy(students[0].name, "Alice");
+	strcpy(students[0].name, "John");
 	students[0].age = 20;
 
 	students[1].id = 2;
-	strcpy(students[1].name, "Bob");
+	strcpy(students[1].name, "Sarah");
 	students[1].age = 22;
 
 	students[2].id = 3;
-	strcpy(students[2].name, "Charlie");
+	strcpy(students[2].name, "Mike");
 	students[2].age = 21;
 
 	students[3].id = 4;
-	strcpy(students[3].name, "Diana");
+	strcpy(students[3].name, "Jessica");
 	students[3].age = 23;
 
 	students[4].id = 5;
-	strcpy(students[4].name, "Eve");
+	strcpy(students[4].name, "Tyler");
 	students[4].age = 19;
 
 	// write all 5 records to the file
